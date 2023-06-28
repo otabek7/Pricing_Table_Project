@@ -12,11 +12,41 @@
     }
     .pricing-container{
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      gap: 2rem;
+
     }
     .pricing-plan{
-      background: grey;
+      background: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .plan-title{
+      font-size: 24px;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .plan-price{
+      font-size: 48px;
+      font-weight: bold;
+    }
+    .plan-button{
+      text-align: center;
+      background-color: #ff6600;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;    
+    }
+    ul{
+      list-style-type: none;
+    }
+
+    li{
+      padding: 10px;
     }
 
 
@@ -32,7 +62,7 @@
   <div class="pricing-container">
     <div class="pricing-plan">
       <div class="plan-title">Basic</div>
-      <div class="plan-price">$9.99/month</div>
+      <div class="plan-price">$11.99/month</div>
       <ul class="plan-features">
         <li>✅ 10GB Storage</li>
         <li>✅ 1 User</li>
